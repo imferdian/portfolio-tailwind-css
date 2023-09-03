@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a.logo {
+  font-family: 'Cookie', cursive;
+}
+
+.formulir {
+  background: linear-gradient(#ffff, #ffff) padding-box, linear-gradient(145deg, transparent 35%, #78e4d4, #152a38) border-box;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.input-group {
+}
+
+.send:hover {
+  box-shadow: 0 0 5px #5ea3a2, 0 0 25px #5ea3a2, 0 0 50px #5ea3a2, 0 0 100px #5ea3a2;
+}
+
+.anime {
+  animation: atasBawah 2s ease-in infinite alternate-reverse;
+}
+
+.anime:nth-child(2) {
+  animation: bawahAtas 2s ease-in infinite alternate-reverse;
+}
+
+.social:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(32, 32, 32, 0.7), 0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  transform: translateY(0.2em);
+  border-style: solid;
+}
+
+.social:hover svg {
+  transform: scale(0.9);
+}
+
+.svgCont {
+  border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.btn:hover .svgCont {
+  background-color: rgba(156, 156, 156, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.btn:hover .bg {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+@keyframes atasBawah {
+  to {
+    transform: translateY(-20px);
+  }
+}
+@keyframes bawahAtas {
+  to {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.garis {
+  background: linear-gradient(90deg, transparent, #5ea3a2);
+  animation: btn-anim1 2s linear infinite;
+  left: -100%;
+}
+.navbar-fixed {
+  @apply fixed z-[9999] bg-white bg-opacity-60 backdrop-blur-sm;
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-dark;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+@layer components {
+  .primary-gradient {
+    background: radial-gradient(#5ea3a2, #284647);
+  }
+
+  .bayangan {
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.13), -6px -6px 10px -1px rgba(32, 32, 32, 0.5);
+  }
+
+  .jade-50 {
+    color: #f4f9f9;
+  }
+  .jade-100 {
+    color: #daedeb;
+  }
+  .jade-200 {
+    color: #b4dbd7;
+  }
+  .jade-300 {
+    color: #87c1be;
+  }
+  .jade-400 {
+    color: #5ea3a2;
+  }
+  .jade-500 {
+    color: #408080;
+  }
+  .jade-600 {
+    color: #356a6c;
+  }
+  .jade-700 {
+    color: #2d5658;
+  }
+  .jade-800 {
+    color: #284647;
+  }
+  .jade-900 {
+    color: #243c3d;
+  }
+  .jade-950 {
+    color: #112022;
+  }
+}

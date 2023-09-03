@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cookie&family=Leckerli+One&family=Playball&family=Poppins:wght@200;300;400;500;600;700;900&family=Righteous&display=swap" rel="stylesheet" />
+    <title>Portofolio | Perdiansyah</title>
+    <link rel="stylesheet" href="public/style.css" />
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-semibold text-4xl text-primary block py-6 logo"><span class="text-black">im</span>ferdian</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About Me</a>
+                </li>
+                <li class="group">
+                  <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                </li>
+                <li class="group">
+                  <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                </li>
+                <li class="group">
+                  <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 rounded-lg relative lg:w-1/2 group">
+            <div class="card-name px-4 py-6 rounded-lg bg-white/20 backdrop-blur-sm shadow-md hover:backdrop-blur-md hover:scale-105 transition-all delay-150 hover:shadow-xl">
+              <h1 class="text-base font-semibold text-primary md:text-xl">Hallo Everyone 🖐🏼, I'm <span class="block font-bold text-4xl mt-1 lg:text-5xl text-slate-800">Perdiansyah</span></h1>
+              <h2 class="font-medium text-slate-700 mb-5 text-lg lg:text-2xl">Student</h2>
+              <p class="font-medium text-slate-500 mb-10 leading-relaxed">Still learning about web programming, html, css and javascript</p>
+              <span><a href="#" class="text-base font-medium text-white bg-primary px-8 py-3 rounded-full hover:shadow-lg hover:bg-[#356a6c] transition duration-300 active:bg-[#2d5658] ease-in-out">Contact Me</a></span>
+            </div>
+            <div class="anime w-[110px] h-[110px] primary-gradient rounded-full absolute -top-10 -right-10 -z-10 shadow-lg group-hover:backdrop-blur-md transition-all duration-300 ease-in-out"></div>
+            <div class="anime w-[110px] h-[110px] primary-gradient rounded-full absolute -bottom-10 -left-10 -z-10 shadow-lg"></div>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 relative lg:mt-0 lg:-right-10">
+              <img src="img/ferdian.png" alt="Perdiansyah" class="max-w-full mx-auto xl:scale-[.85]" />
+              <span class="absolute bottom-0 lg:bottom-8 scale-95 -z-10 left-1/2 -translate-x-1/2 md:scale-125 lg:scale-105">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 700 700" style="overflow: hidden; display: block" width="350" height="350" class="">
+                  <defs></defs>
+                  <g id="two-0" transform="matrix(1 0 0 1 0 0) " opacity="1">
+                    <path
+                      transform="matrix(1 0 0 1 350 350)"
+                      id="two-242"
+                      d="M 232.247676 84.531241 C 215.740782 109.222884 222.516336 148.077637 201.585964 169.150708 C 180.352499 190.52894 145.777987 196.544182 115.954449 200.838998 C 89.263323 204.682723 58.999415 184.143631 34.428842 195.255669 C -9.858566 215.284644 -6.729084 317.433344 -55.057399 312.246023 C -98.409892 307.592783 -85.586857 227.919303 -111.229709 192.655505 C -126.103672 172.200977 -145.849632 153.871053 -167.176955 140.27812 C -198.273277 120.458931 -258.579673 133.355174 -270.848833 98.580912 C -283.251182 63.429156 -212.254371 37.115497 -215.704592 0 C -220.190303 -48.254705 -323.101654 -66.156031 -309.794883 -112.756117 C -297.784239 -154.817186 -214.266067 -122.821456 -183.933701 -154.3387 C -157.848018 -181.443372 -186.701299 -248.547149 -152.344798 -263.868931 C -113.600412 -281.147554 -78.205829 -199.318081 -36.646721 -207.833881 C 8.662419 -217.118094 9.245975 -317.889956 55.298284 -313.612154 C 96.464724 -309.788202 87.176601 -232.325734 118.665937 -205.535433 C 141.955861 -185.720977 184.419822 -194.625842 205.077243 -172.08024 C 225.535473 -149.752034 214.465152 -109.554126 230.617415 -83.937875 C 252.829509 -48.711197 324.59759 -41.644108 324.851254 -0.000001 C 325.103284 41.375697 255.243359 50.133416 232.247676 84.531241 Z "
+                      fill="#408080"
+                      stroke="undefined"
+                      stroke-width="1"
+                      stroke-opacity="1"
+                      fill-opacity="1"
+                      visibility="visible"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="4"
+                    ></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pb-20 pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:p-4 p-5 mb-10 lg:w-1/2 rounded-lg bayangan lg:shadow-none mt-10 lg:mt-0">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3 lg:text-xl">About Me</h4>
+            <h2 class="font-bold text-slate-900 text-3xl mb-3 max-w-xl lg:text-4xl">Halu Oleo University Student</h2>
+            <p class="font-medium text-base text-slate-600 lg:text-lg">At the Faculty of Mathematics and Natural Science with a major in Mathematics, Computer Science study program, curently in the 5th semester</p>
+          </div>
+          <div class="w-full p-4 lg:w-1/2 rounded-lg bayangan lg:shadow-none">
+            <h3 class="font-semibold text-slate-900 text-2xl mb-4 lg:text-3xl lg:pt-10">Let's be friends</h3>
+            <p class="font-medium text-base text-slate-600 mb-6 lg:text-lg">Let's connect on social media to share colorful stories, inspiration, life's journeys and more about me. Join me in this journey!</p>
+            <div class="flex items-center">
+              <!-- Instagram -->
+              <a
+                href="https://instagram.com/whosferdie_"
+                target="_blank"
+                class="social w-[2.70rem] h-[2.70rem] mr-3 rounded-lg flex justify-center items-center bayangan hover:bg-white bg-pink-600 text-white hover:text-pink-700 transition-all duration-200"
+              >
+                <svg role="img" width="23" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+
+              <!-- Twitter -->
+              <a
+                href="https://x.com/neferdie"
+                target="_blank"
+                class="social w-[2.70rem] h-[2.70rem] mr-3 rounded-lg flex justify-center items-center bayangan bg-blue-500 hover:bg-white text-white hover:text-blue-500 transition-all duration-200"
+              >
+                <svg role="img" width="23" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Twitter</title>
+                  <path
+                    d="M21.543 7.104c.015.211.015.423.015.636 0 6.507-4.954 14.01-14.01 14.01v-.003A13.94 13.94 0 0 1 0 19.539a9.88 9.88 0 0 0 7.287-2.041 4.93 4.93 0 0 1-4.6-3.42 4.916 4.916 0 0 0 2.223-.084A4.926 4.926 0 0 1 .96 9.167v-.062a4.887 4.887 0 0 0 2.235.616A4.928 4.928 0 0 1 1.67 3.148 13.98 13.98 0 0 0 11.82 8.292a4.929 4.929 0 0 1 8.39-4.49 9.868 9.868 0 0 0 3.128-1.196 4.941 4.941 0 0 1-2.165 2.724A9.828 9.828 0 0 0 24 4.555a10.019 10.019 0 0 1-2.457 2.549z"
+                  />
+                </svg>
+              </a>
+
+              <!-- Github -->
+              <a href="#" target="_blank" class="social w-[2.70rem] h-[2.70rem] mr-3 rounded-lg flex justify-center items-center bayangan bg-slate-800 text-white hover:bg-white hover:text-slate-800 transition-all duration-200">
+                <svg role="img" width="23" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>GitHub</title>
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-gradient-to-b from-slate-100 to-white">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg lg:text-2xl text-primary mb-2">Portfolio</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Latest & Upcoming Project</h2>
+            <p class="text-md text-slate-500 font-medium md:text-lg">
+              Explore my latest and upcoming project, showcasing innovation, creativity, and a passion for pushing boundaries. <br />
+              Stay tuned for greatness!
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="img/portofolio/1.png" alt="Landing Page" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Ferdian's Landing Page</h3>
+            <p>Presenting a landing page project that blends aesthetics and functionality, inviting visitors to explore interacively</p>
+          </div>
+
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="py-5 px-5 rounded-md shadow-md overflow-hidden w-full h-52 md:h-[180px] sm:h-72 lg:h-64 xl:h-[277px] bg-slate-200 space-y-4">
+              <div class="w-full mb-8 rounded-md h-9 bg-slate-300 animate-pulse md:mb-6"></div>
+              <div class="grid grid-cols-3 space-x-3 animate-pulse">
+                <div class="rounded-md h-8 bg-slate-300 col-span-1"></div>
+                <div class="rounded-md h-8 bg-slate-300 col-span-2"></div>
+              </div>
+              <div class="w-full rounded-md h-9 bg-slate-300 animate-pulse"></div>
+              <div class="w-1/2 rounded-md h-9 bg-slate-200 animate-pulse sm:bg-slate-300"></div>
+              <div class="w-1/3 rounded-md h-9 bg-slate-200 animate-pulse sm:bg-slate-300 lg:hidden"></div>
+              <!-- <img src="" alt="Game" width="w-full" /> -->
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Simple Game Page</h3>
+            <p>Exciting upcoming project: a simple yet engaging game, designed to captivate players with its interactive experience</p>
+          </div>
+
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="py-5 px-6 rounded-md shadow-md overflow-hidden w-full h-48 md:h-[180px] sm:h-72 lg:h-64 xl:h-[277px] bg-slate-200">
+              <div class="w-full mb-3 rounded-md h-6 bg-slate-300 animate-pulse lg:h-8"></div>
+              <div class="justify-between flex gap-2 border animate-pulse">
+                <div class="h-16 w-12 bg-slate-300 rounded-md sm:h-20 sm:w-16 md:w-14 lg:w-20 lg:h-28"></div>
+                <div class="h-16 w-12 bg-slate-300 rounded-md sm:h-20 sm:w-16 md:w-14 lg:w-20 lg:h-28"></div>
+                <div class="h-16 w-12 bg-slate-300 rounded-md sm:h-20 sm:w-16 md:w-14 lg:w-20 lg:h-28"></div>
+                <div class="h-16 w-12 bg-slate-300 rounded-md sm:h-20 sm:w-16 md:w-14 lg:w-20 lg:h-28"></div>
+              </div>
+              <div class="w-full mt-3 rounded-md h-10 bg-slate-300 animate-pulse md:h-6"></div>
+              <div class="w-full mt-3 rounded-md h-10 bg-slate-300 animate-pulse invisible sm:visible md:h-6"></div>
+              <!-- <img src="img/portofolio/1.png" alt="Movie Page" width="w-full" /> -->
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Movie Page</h3>
+            <p>Upcoming movie page project: Showcasing favorites films with appealing layouts and comprehensive information for engaging experience</p>
+          </div>
+
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="py-5 px-6 rounded-md shadow-md overflow-hidden w-full h-48 md:h-[180px] sm:h-72 lg:h-64 xl:h-[277px] bg-slate-200 flex">
+              <div class="rounded-full bg-slate-300 h-16 w-16 mr-5 sm:h-24 sm:w-24 md:w-20 md:h-20 animate-pulse"></div>
+              <div class="flex-1 space-y-6 py-1 animate-pulse">
+                <div class="h-4 bg-slate-300 rounded-md"></div>
+                <div class="space-y-3">
+                  <div class="grid grid-cols-3 gap-4">
+                    <div class="h-4 bg-slate-300 rounded-md col-span-2"></div>
+                    <div class="h-4 bg-slate-300 rounded-md col-span-1"></div>
+                  </div>
+                  <div class="h-4 bg-slate-300 rounded-md"></div>
+                  <div class="grid grid-cols-3 gap-4">
+                    <div class="h-4 bg-slate-300 rounded-md col-span-1"></div>
+                    <div class="h-4 bg-slate-300 rounded-md col-span-2"></div>
+                    <div class="h-4 bg-slate-300 rounded-md col-span-1"></div>
+                    <div class="h-4 bg-slate-300 rounded-md col-span-1"></div>
+                    <div class="h-4 bg-slate-300 rounded-md col-span-1"></div>
+                  </div>
+                  <div class="h-4 bg-slate-300 rounded-md invisible sm:visible"></div>
+                  <div class="grid grid-cols-3 gap-4">
+                    <div class="h-4 bg-slate-300 rounded-md col-span-2"></div>
+                    <div class="h-4 bg-slate-300 rounded-md col-span-1"></div>
+                    <div class="h-4 bg-slate-300 rounded-md col-span-1 lg:invisible xl:visible"></div>
+                    <div class="h-4 bg-slate-300 rounded-md col-span-2 lg:invisible xl:visible"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- <img src="img/portofolio/1.png" alt="Movie Page" width="w-full" /> -->
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Tribute Page</h3>
+            <p>Anticipate the upcoming tribute page project, dedicated to celebrating and honoring moments that matter the most</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+      <style>
+        .path-0 {
+          animation: pathAnim-0 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-0 {
+          0% {
+            d: path(
+              'M 0,400 C 0,400 0,100 0,100 C 78.24880382775117,110.16267942583731 156.49760765550235,120.32535885167462 245,125 C 333.50239234449765,129.67464114832538 432.2583732057417,128.86124401913875 532,114 C 631.7416267942583,99.13875598086125 732.4688995215312,70.22966507177033 826,68 C 919.5311004784688,65.77033492822967 1005.8660287081341,90.22009569377991 1107,100 C 1208.133971291866,109.77990430622009 1324.066985645933,104.88995215311004 1440,100 C 1440,100 1440,400 1440,400 Z'
+            );
+          }
+          25% {
+            d: path(
+              'M 0,400 C 0,400 0,100 0,100 C 119.866028708134,107.76076555023924 239.732057416268,115.52153110047848 325,125 C 410.267942583732,134.47846889952152 460.9377990430621,145.67464114832535 553,137 C 645.0622009569379,128.32535885167465 778.5167464114833,99.7799043062201 882,99 C 985.4832535885167,98.2200956937799 1058.9952153110048,125.20574162679426 1147,130 C 1235.0047846889952,134.79425837320574 1337.5023923444976,117.39712918660287 1440,100 C 1440,100 1440,400 1440,400 Z'
+            );
+          }
+          50% {
+            d: path(
+              'M 0,400 C 0,400 0,100 0,100 C 120.02870813397129,115.58851674641149 240.05741626794259,131.17703349282297 328,130 C 415.9425837320574,128.82296650717703 471.799043062201,110.88038277511963 549,111 C 626.200956937799,111.11961722488037 724.7464114832535,129.30143540669854 834,127 C 943.2535885167465,124.69856459330146 1063.2153110047846,101.91387559808614 1166,94 C 1268.7846889952154,86.08612440191386 1354.3923444976076,93.04306220095694 1440,100 C 1440,100 1440,400 1440,400 Z'
+            );
+          }
+          75% {
+            d: path(
+              'M 0,400 C 0,400 0,100 0,100 C 76.34449760765548,77.47368421052632 152.68899521531097,54.94736842105263 252,64 C 351.31100478468903,73.05263157894737 473.58851674641164,113.68421052631578 587,116 C 700.4114832535884,118.31578947368422 804.9569377990429,82.31578947368422 896,76 C 987.0430622009571,69.68421052631578 1064.5837320574165,93.05263157894736 1153,102 C 1241.4162679425835,110.94736842105264 1340.7081339712918,105.47368421052633 1440,100 C 1440,100 1440,400 1440,400 Z'
+            );
+          }
+          100% {
+            d: path(
+              'M 0,400 C 0,400 0,100 0,100 C 78.24880382775117,110.16267942583731 156.49760765550235,120.32535885167462 245,125 C 333.50239234449765,129.67464114832538 432.2583732057417,128.86124401913875 532,114 C 631.7416267942583,99.13875598086125 732.4688995215312,70.22966507177033 826,68 C 919.5311004784688,65.77033492822967 1005.8660287081341,90.22009569377991 1107,100 C 1208.133971291866,109.77990430622009 1324.066985645933,104.88995215311004 1440,100 C 1440,100 1440,400 1440,400 Z'
+            );
+          }
+        }
+      </style>
+      <path
+        d="M 0,400 C 0,400 0,100 0,100 C 78.24880382775117,110.16267942583731 156.49760765550235,120.32535885167462 245,125 C 333.50239234449765,129.67464114832538 432.2583732057417,128.86124401913875 532,114 C 631.7416267942583,99.13875598086125 732.4688995215312,70.22966507177033 826,68 C 919.5311004784688,65.77033492822967 1005.8660287081341,90.22009569377991 1107,100 C 1208.133971291866,109.77990430622009 1324.066985645933,104.88995215311004 1440,100 C 1440,100 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#243c3d"
+        fill-opacity="0.4"
+        class="transition-all duration-300 ease-in-out delay-150 path-0"
+      ></path>
+      <style>
+        .path-1 {
+          animation: pathAnim-1 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-1 {
+          0% {
+            d: path(
+              'M 0,400 C 0,400 0,200 0,200 C 69.72248803827753,202.17224880382776 139.44497607655506,204.3444976076555 244,206 C 348.55502392344494,207.6555023923445 487.9425837320574,208.79425837320574 593,210 C 698.0574162679426,211.20574162679426 768.7846889952153,212.47846889952154 854,209 C 939.2153110047847,205.52153110047846 1038.9186602870814,197.2918660287081 1139,195 C 1239.0813397129186,192.7081339712919 1339.5406698564593,196.35406698564594 1440,200 C 1440,200 1440,400 1440,400 Z'
+            );
+          }
+          25% {
+            d: path(
+              'M 0,400 C 0,400 0,200 0,200 C 100.69856459330146,195.30143540669854 201.3971291866029,190.60287081339712 308,203 C 414.6028708133971,215.39712918660288 527.1100478468899,244.8899521531101 611,235 C 694.8899521531101,225.1100478468899 750.1626794258374,175.83732057416265 832,169 C 913.8373205741626,162.16267942583735 1022.2392344497607,197.76076555023926 1128,210 C 1233.7607655502393,222.23923444976074 1336.8803827751196,211.11961722488036 1440,200 C 1440,200 1440,400 1440,400 Z'
+            );
+          }
+          50% {
+            d: path(
+              'M 0,400 C 0,400 0,200 0,200 C 107.45454545454547,215.33014354066984 214.90909090909093,230.6602870813397 296,225 C 377.09090909090907,219.3397129186603 431.81818181818176,192.68899521531102 530,185 C 628.1818181818182,177.31100478468898 769.8181818181819,188.58373205741626 866,199 C 962.1818181818181,209.41626794258374 1012.909090909091,218.97607655502395 1101,219 C 1189.090909090909,219.02392344497605 1314.5454545454545,209.51196172248802 1440,200 C 1440,200 1440,400 1440,400 Z'
+            );
+          }
+          75% {
+            d: path(
+              'M 0,400 C 0,400 0,200 0,200 C 86.94736842105263,215.11004784688996 173.89473684210526,230.2200956937799 259,235 C 344.10526315789474,239.7799043062201 427.36842105263156,234.22966507177034 540,231 C 652.6315789473684,227.77033492822966 794.6315789473683,226.86124401913878 887,222 C 979.3684210526317,217.13875598086122 1022.1052631578948,208.32535885167465 1106,204 C 1189.8947368421052,199.67464114832535 1314.9473684210525,199.83732057416267 1440,200 C 1440,200 1440,400 1440,400 Z'
+            );
+          }
+          100% {
+            d: path(
+              'M 0,400 C 0,400 0,200 0,200 C 69.72248803827753,202.17224880382776 139.44497607655506,204.3444976076555 244,206 C 348.55502392344494,207.6555023923445 487.9425837320574,208.79425837320574 593,210 C 698.0574162679426,211.20574162679426 768.7846889952153,212.47846889952154 854,209 C 939.2153110047847,205.52153110047846 1038.9186602870814,197.2918660287081 1139,195 C 1239.0813397129186,192.7081339712919 1339.5406698564593,196.35406698564594 1440,200 C 1440,200 1440,400 1440,400 Z'
+            );
+          }
+        }
+      </style>
+      <path
+        d="M 0,400 C 0,400 0,200 0,200 C 69.72248803827753,202.17224880382776 139.44497607655506,204.3444976076555 244,206 C 348.55502392344494,207.6555023923445 487.9425837320574,208.79425837320574 593,210 C 698.0574162679426,211.20574162679426 768.7846889952153,212.47846889952154 854,209 C 939.2153110047847,205.52153110047846 1038.9186602870814,197.2918660287081 1139,195 C 1239.0813397129186,192.7081339712919 1339.5406698564593,196.35406698564594 1440,200 C 1440,200 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#243c3d"
+        fill-opacity="0.53"
+        class="transition-all duration-300 ease-in-out delay-150 path-1"
+      ></path>
+      <style>
+        .path-2 {
+          animation: pathAnim-2 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-2 {
+          0% {
+            d: path(
+              'M 0,400 C 0,400 0,300 0,300 C 112.76555023923444,306.2775119617225 225.5311004784689,312.555023923445 326,319 C 426.4688995215311,325.444976076555 514.6411483253589,332.05741626794253 605,322 C 695.3588516746411,311.94258373205747 787.9043062200956,285.21531100478467 880,287 C 972.0956937799044,288.78468899521533 1063.7416267942585,319.0813397129187 1157,326 C 1250.2583732057415,332.9186602870813 1345.1291866028707,316.4593301435407 1440,300 C 1440,300 1440,400 1440,400 Z'
+            );
+          }
+          25% {
+            d: path(
+              'M 0,400 C 0,400 0,300 0,300 C 116.92822966507174,307.2535885167464 233.85645933014348,314.50717703349284 314,314 C 394.1435406698565,313.49282296650716 437.5023923444977,305.2248803827751 534,294 C 630.4976076555023,282.7751196172249 780.1339712918659,268.5933014354067 879,274 C 977.8660287081341,279.4066985645933 1025.9617224880383,304.40191387559804 1111,312 C 1196.0382775119617,319.59808612440196 1318.0191387559807,309.799043062201 1440,300 C 1440,300 1440,400 1440,400 Z'
+            );
+          }
+          50% {
+            d: path(
+              'M 0,400 C 0,400 0,300 0,300 C 110.63157894736841,308.77511961722485 221.26315789473682,317.55023923444975 308,316 C 394.7368421052632,314.44976076555025 457.57894736842104,302.57416267942585 544,301 C 630.421052631579,299.42583732057415 740.4210526315788,308.1531100478469 850,317 C 959.5789473684212,325.8468899521531 1068.7368421052631,334.8133971291866 1167,332 C 1265.2631578947369,329.1866028708134 1352.6315789473683,314.5933014354067 1440,300 C 1440,300 1440,400 1440,400 Z'
+            );
+          }
+          75% {
+            d: path(
+              'M 0,400 C 0,400 0,300 0,300 C 110.24880382775117,305.6937799043062 220.49760765550235,311.3875598086124 303,314 C 385.50239234449765,316.6124401913876 440.2583732057417,316.14354066985646 533,302 C 625.7416267942583,287.85645933014354 756.4688995215311,260.0382775119617 873,267 C 989.5311004784689,273.9617224880383 1091.8660287081339,315.70334928229664 1184,327 C 1276.1339712918661,338.29665071770336 1358.066985645933,319.1483253588517 1440,300 C 1440,300 1440,400 1440,400 Z'
+            );
+          }
+          100% {
+            d: path(
+              'M 0,400 C 0,400 0,300 0,300 C 112.76555023923444,306.2775119617225 225.5311004784689,312.555023923445 326,319 C 426.4688995215311,325.444976076555 514.6411483253589,332.05741626794253 605,322 C 695.3588516746411,311.94258373205747 787.9043062200956,285.21531100478467 880,287 C 972.0956937799044,288.78468899521533 1063.7416267942585,319.0813397129187 1157,326 C 1250.2583732057415,332.9186602870813 1345.1291866028707,316.4593301435407 1440,300 C 1440,300 1440,400 1440,400 Z'
+            );
+          }
+        }
+      </style>
+      <path
+        d="M 0,400 C 0,400 0,300 0,300 C 112.76555023923444,306.2775119617225 225.5311004784689,312.555023923445 326,319 C 426.4688995215311,325.444976076555 514.6411483253589,332.05741626794253 605,322 C 695.3588516746411,311.94258373205747 787.9043062200956,285.21531100478467 880,287 C 972.0956937799044,288.78468899521533 1063.7416267942585,319.0813397129187 1157,326 C 1250.2583732057415,332.9186602870813 1345.1291866028707,316.4593301435407 1440,300 C 1440,300 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#243c3d"
+        fill-opacity="1"
+        class="transition-all duration-300 ease-in-out delay-150 path-2"
+      ></path>
+    </svg>
+
+    <!-- Clients Section Start -->
+    <section id="clients" class="pt-12 pb-24 bg-dark">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg lg:text-2xl text-[#87c1be] mb-2">Clients</h4>
+            <h2 class="font-bold text-slate-100 text-3xl mb-4 sm:text-4xl lg:text-5xl">Hoping to Collaborate With</h2>
+            <p class="text-md text-slate-200 font-medium md:text-lg">It would be an honor and pride to collaborate with prominent companies such as :</p>
+          </div>
+        </div>
+
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <a href="google.com" class="max-w-[150px] mx-1 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+              <img src="img/clients/google.svg" alt="Google" />
+            </a>
+            <a href="grab.com" class="max-w-[115px] mx-6 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+              <img src="img/clients/Grab.svg" alt="Grab" />
+            </a>
+            <a href="shopee.co.id" class="max-w-[120px] mx-6 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+              <img src="img/clients/shopee.svg" alt="Shopee" />
+            </a>
+            <a href="tokopedia.com" class="max-w-[150px] mx-6 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+              <img src="img/clients/tokopedia.svg" alt="Tokopedia" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Section End -->
+
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+      <style>
+        .path-0 {
+          animation: pathAnim-0 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-0 {
+          0% {
+            d: path(
+              'M 0,400 C 0,400 0,100 0,100 C 74.57416267942583,86.28708133971293 149.14832535885165,72.57416267942584 236,80 C 322.85167464114835,87.42583732057416 421.98086124401914,115.99043062200957 540,128 C 658.0191387559809,140.00956937799043 794.9282296650719,135.46411483253587 898,120 C 1001.0717703349281,104.53588516746412 1070.3062200956938,78.1531100478469 1155,73 C 1239.6937799043062,67.8468899521531 1339.846889952153,83.92344497607655 1440,100 C 1440,100 1440,400 1440,400 Z'
+            );
+          }
+          25% {
+            d: path(
+              'M 0,400 C 0,400 0,100 0,100 C 99.09090909090907,91.52153110047847 198.18181818181813,83.04306220095694 290,90 C 381.81818181818187,96.95693779904306 466.3636363636364,119.34928229665071 572,116 C 677.6363636363636,112.65071770334929 804.3636363636364,83.5598086124402 907,74 C 1009.6363636363636,64.4401913875598 1088.1818181818182,74.41148325358851 1173,82 C 1257.8181818181818,89.58851674641149 1348.909090909091,94.79425837320574 1440,100 C 1440,100 1440,400 1440,400 Z'
+            );
+          }
+          50% {
+            d: path(
+              'M 0,400 C 0,400 0,100 0,100 C 82.06698564593302,104.09569377990431 164.13397129186603,108.19138755980862 268,104 C 371.86602870813397,99.80861244019138 497.53110047846894,87.33014354066985 588,88 C 678.4688995215311,88.66985645933015 733.7416267942584,102.48803827751196 817,98 C 900.2583732057416,93.51196172248804 1011.5023923444976,70.7177033492823 1120,68 C 1228.4976076555024,65.2822966507177 1334.248803827751,82.64114832535884 1440,100 C 1440,100 1440,400 1440,400 Z'
+            );
+          }
+          75% {
+            d: path(
+              'M 0,400 C 0,400 0,100 0,100 C 125.24401913875596,108.14354066985646 250.48803827751192,116.28708133971291 340,118 C 429.5119617224881,119.71291866028709 483.2918660287082,114.9952153110048 576,112 C 668.7081339712918,109.0047846889952 800.3444976076553,107.73205741626793 895,111 C 989.6555023923447,114.26794258373207 1047.33014354067,122.07655502392346 1132,121 C 1216.66985645933,119.92344497607654 1328.334928229665,109.96172248803828 1440,100 C 1440,100 1440,400 1440,400 Z'
+            );
+          }
+          100% {
+            d: path(
+              'M 0,400 C 0,400 0,100 0,100 C 74.57416267942583,86.28708133971293 149.14832535885165,72.57416267942584 236,80 C 322.85167464114835,87.42583732057416 421.98086124401914,115.99043062200957 540,128 C 658.0191387559809,140.00956937799043 794.9282296650719,135.46411483253587 898,120 C 1001.0717703349281,104.53588516746412 1070.3062200956938,78.1531100478469 1155,73 C 1239.6937799043062,67.8468899521531 1339.846889952153,83.92344497607655 1440,100 C 1440,100 1440,400 1440,400 Z'
+            );
+          }
+        }
+      </style>
+      <path
+        d="M 0,400 C 0,400 0,100 0,100 C 74.57416267942583,86.28708133971293 149.14832535885165,72.57416267942584 236,80 C 322.85167464114835,87.42583732057416 421.98086124401914,115.99043062200957 540,128 C 658.0191387559809,140.00956937799043 794.9282296650719,135.46411483253587 898,120 C 1001.0717703349281,104.53588516746412 1070.3062200956938,78.1531100478469 1155,73 C 1239.6937799043062,67.8468899521531 1339.846889952153,83.92344497607655 1440,100 C 1440,100 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#243c3d"
+        fill-opacity="0.4"
+        class="transition-all duration-300 ease-in-out delay-150 path-0"
+        transform="rotate(-180 720 200)"
+      ></path>
+      <style>
+        .path-1 {
+          animation: pathAnim-1 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-1 {
+          0% {
+            d: path(
+              'M 0,400 C 0,400 0,200 0,200 C 93.13875598086128,215.16746411483254 186.27751196172255,230.33492822966508 273,233 C 359.72248803827745,235.66507177033492 440.02870813397124,225.82775119617227 541,224 C 641.9712918660288,222.17224880382773 763.6076555023923,228.35406698564594 858,217 C 952.3923444976077,205.64593301435406 1019.5406698564593,176.755980861244 1112,171 C 1204.4593301435407,165.244019138756 1322.2296650717703,182.622009569378 1440,200 C 1440,200 1440,400 1440,400 Z'
+            );
+          }
+          25% {
+            d: path(
+              'M 0,400 C 0,400 0,200 0,200 C 74.06698564593302,198.57416267942585 148.13397129186603,197.14832535885168 234,199 C 319.86602870813397,200.85167464114832 417.53110047846894,205.98086124401914 539,199 C 660.4688995215311,192.01913875598086 805.7416267942583,172.92822966507177 917,179 C 1028.2583732057417,185.07177033492823 1105.5023923444978,216.30622009569376 1187,224 C 1268.4976076555022,231.69377990430624 1354.248803827751,215.8468899521531 1440,200 C 1440,200 1440,400 1440,400 Z'
+            );
+          }
+          50% {
+            d: path(
+              'M 0,400 C 0,400 0,200 0,200 C 87.39712918660285,211.07177033492823 174.7942583732057,222.14354066985646 257,221 C 339.2057416267943,219.85645933014354 416.22009569377985,206.4976076555024 526,208 C 635.7799043062201,209.5023923444976 778.3253588516747,225.86602870813397 893,227 C 1007.6746411483253,228.13397129186603 1094.4784688995214,214.03827751196172 1181,207 C 1267.5215311004786,199.96172248803828 1353.7607655502393,199.98086124401914 1440,200 C 1440,200 1440,400 1440,400 Z'
+            );
+          }
+          75% {
+            d: path(
+              'M 0,400 C 0,400 0,200 0,200 C 103.02392344497608,203.91387559808612 206.04784688995215,207.82775119617222 292,201 C 377.95215311004785,194.17224880382778 446.83253588516754,176.60287081339715 531,171 C 615.1674641148325,165.39712918660285 714.6220095693781,171.76076555023923 835,172 C 955.3779904306219,172.23923444976077 1096.6794258373204,166.35406698564594 1201,170 C 1305.3205741626796,173.64593301435406 1372.66028708134,186.82296650717703 1440,200 C 1440,200 1440,400 1440,400 Z'
+            );
+          }
+          100% {
+            d: path(
+              'M 0,400 C 0,400 0,200 0,200 C 93.13875598086128,215.16746411483254 186.27751196172255,230.33492822966508 273,233 C 359.72248803827745,235.66507177033492 440.02870813397124,225.82775119617227 541,224 C 641.9712918660288,222.17224880382773 763.6076555023923,228.35406698564594 858,217 C 952.3923444976077,205.64593301435406 1019.5406698564593,176.755980861244 1112,171 C 1204.4593301435407,165.244019138756 1322.2296650717703,182.622009569378 1440,200 C 1440,200 1440,400 1440,400 Z'
+            );
+          }
+        }
+      </style>
+      <path
+        d="M 0,400 C 0,400 0,200 0,200 C 93.13875598086128,215.16746411483254 186.27751196172255,230.33492822966508 273,233 C 359.72248803827745,235.66507177033492 440.02870813397124,225.82775119617227 541,224 C 641.9712918660288,222.17224880382773 763.6076555023923,228.35406698564594 858,217 C 952.3923444976077,205.64593301435406 1019.5406698564593,176.755980861244 1112,171 C 1204.4593301435407,165.244019138756 1322.2296650717703,182.622009569378 1440,200 C 1440,200 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#243c3d"
+        fill-opacity="0.53"
+        class="transition-all duration-300 ease-in-out delay-150 path-1"
+        transform="rotate(-180 720 200)"
+      ></path>
+      <style>
+        .path-2 {
+          animation: pathAnim-2 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-2 {
+          0% {
+            d: path(
+              'M 0,400 C 0,400 0,300 0,300 C 119.13875598086125,279.9712918660287 238.2775119617225,259.9425837320574 331,266 C 423.7224880382775,272.0574162679426 490.02870813397135,304.20095693779905 577,322 C 663.9712918660287,339.79904306220095 771.6076555023923,343.25358851674645 869,333 C 966.3923444976077,322.74641148325355 1053.5406698564593,298.78468899521533 1147,291 C 1240.4593301435407,283.21531100478467 1340.2296650717703,291.60765550239233 1440,300 C 1440,300 1440,400 1440,400 Z'
+            );
+          }
+          25% {
+            d: path(
+              'M 0,400 C 0,400 0,300 0,300 C 88.95693779904306,280.9377990430622 177.91387559808612,261.8755980861244 271,264 C 364.0861244019139,266.1244019138756 461.3014354066985,289.4354066985646 556,292 C 650.6985645933015,294.5645933014354 742.8803827751196,276.3827751196172 830,270 C 917.1196172248804,263.6172248803828 999.177033492823,269.03349282296654 1100,276 C 1200.822966507177,282.96650717703346 1320.4114832535884,291.48325358851673 1440,300 C 1440,300 1440,400 1440,400 Z'
+            );
+          }
+          50% {
+            d: path(
+              'M 0,400 C 0,400 0,300 0,300 C 90.75598086124404,309.52153110047846 181.51196172248808,319.04306220095697 285,320 C 388.4880382775119,320.95693779904303 504.7081339712918,313.34928229665076 617,306 C 729.2918660287082,298.65071770334924 837.6555023923447,291.5598086124402 912,290 C 986.3444976076553,288.4401913875598 1026.66985645933,292.41148325358853 1109,295 C 1191.33014354067,297.58851674641147 1315.665071770335,298.7942583732057 1440,300 C 1440,300 1440,400 1440,400 Z'
+            );
+          }
+          75% {
+            d: path(
+              'M 0,400 C 0,400 0,300 0,300 C 103.59808612440193,290.46889952153106 207.19617224880386,280.93779904306217 317,285 C 426.80382775119614,289.06220095693783 542.8133971291866,306.7177033492823 629,311 C 715.1866028708134,315.2822966507177 771.5502392344497,306.1913875598087 848,311 C 924.4497607655503,315.8086124401913 1020.9856459330144,334.5167464114832 1123,335 C 1225.0143540669856,335.4832535885168 1332.5071770334928,317.7416267942584 1440,300 C 1440,300 1440,400 1440,400 Z'
+            );
+          }
+          100% {
+            d: path(
+              'M 0,400 C 0,400 0,300 0,300 C 119.13875598086125,279.9712918660287 238.2775119617225,259.9425837320574 331,266 C 423.7224880382775,272.0574162679426 490.02870813397135,304.20095693779905 577,322 C 663.9712918660287,339.79904306220095 771.6076555023923,343.25358851674645 869,333 C 966.3923444976077,322.74641148325355 1053.5406698564593,298.78468899521533 1147,291 C 1240.4593301435407,283.21531100478467 1340.2296650717703,291.60765550239233 1440,300 C 1440,300 1440,400 1440,400 Z'
+            );
+          }
+        }
+      </style>
+      <path
+        d="M 0,400 C 0,400 0,300 0,300 C 119.13875598086125,279.9712918660287 238.2775119617225,259.9425837320574 331,266 C 423.7224880382775,272.0574162679426 490.02870813397135,304.20095693779905 577,322 C 663.9712918660287,339.79904306220095 771.6076555023923,343.25358851674645 869,333 C 966.3923444976077,322.74641148325355 1053.5406698564593,298.78468899521533 1147,291 C 1240.4593301435407,283.21531100478467 1340.2296650717703,291.60765550239233 1440,300 C 1440,300 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#243c3d"
+        fill-opacity="1"
+        class="transition-all duration-300 ease-in-out delay-150 path-2"
+        transform="rotate(-180 720 200)"
+      ></path>
+    </svg>
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg lg:text-2xl text-primary mb-2">Contact</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Contact Me</h2>
+            <p class="text-md text-slate-600 font-medium md:text-lg">Feel free to reach out for inquires, collaboration or just to say hello. I'm here to connect!</p>
+          </div>
+        </div>
+
+        <form action="">
+          <div class="w-full lg:w-2/3 lg:mx-auto px-6 py-10 rounded-lg shadow-lg transition-all duration-500 formulir">
+          <div class="w-full px-4 mb-8 relative">
+            <label for="name" class="text-base font-bold text-primary">Name</label>
+            <input type="text" id="name" class="w-full shadow-md text-dark p-3 rounded-md  outline-none border-dark focus:border-b-4 focus:shadow-none transition-all">
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="email" class="text-base font-bold text-primary">Email</label>
+            <input type="email" id="email" class="w-full shadow-md text-dark p-3 rounded-md outline-none border-dark focus:border-b-4 focus:shadow-none transition-all">
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="message" class="text-base font-bold text-primary">Pesan</label>
+            <textarea type="email" id="email" class="w-full shadow-md text-dark p-3 rounded-md outline-none border-dark focus:border-b-4 focus:shadow-none transition-all h-32"></textarea>
+          </div>
+          <div class="w-32 px-4 mx-auto">
+            <button class="relative text-base font-semibold tracking-wider text-dark py-3 px-8 rounded-xl hover:outline-none overflow-hidden hover:bg-[#5ea3a2] hover:text-white active:bg-[#356a6c] send transition duration-500">Kirim
+              <span class="garis bottom-[2px] w-full h-[2px] absolute block"></span>
+            </button>
+          </div>
+          </div> 
+        </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+      <style>
+      .path-0{
+        animation:pathAnim-0 4s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes pathAnim-0{
+        0%{
+          d: path("M 0,400 C 0,400 0,100 0,100 C 111.73333333333329,100.80000000000001 223.46666666666658,101.60000000000001 397,109 C 570.5333333333334,116.39999999999999 805.8666666666668,130.4 990,130 C 1174.1333333333332,129.6 1307.0666666666666,114.8 1440,100 C 1440,100 1440,400 1440,400 Z");
+        }
+        25%{
+          d: path("M 0,400 C 0,400 0,100 0,100 C 170.40000000000003,78.4 340.80000000000007,56.8 500,64 C 659.1999999999999,71.2 807.2,107.20000000000002 962,118 C 1116.8,128.79999999999998 1278.4,114.39999999999999 1440,100 C 1440,100 1440,400 1440,400 Z");
+        }
+        50%{
+          d: path("M 0,400 C 0,400 0,100 0,100 C 139.59999999999997,78.4 279.19999999999993,56.8 449,64 C 618.8000000000001,71.2 818.8,107.20000000000002 989,118 C 1159.2,128.79999999999998 1299.6,114.39999999999999 1440,100 C 1440,100 1440,400 1440,400 Z");
+        }
+        75%{
+          d: path("M 0,400 C 0,400 0,100 0,100 C 124.93333333333334,105.73333333333333 249.86666666666667,111.46666666666667 400,102 C 550.1333333333333,92.53333333333333 725.4666666666667,67.86666666666667 903,65 C 1080.5333333333333,62.13333333333333 1260.2666666666667,81.06666666666666 1440,100 C 1440,100 1440,400 1440,400 Z");
+        }
+        100%{
+          d: path("M 0,400 C 0,400 0,100 0,100 C 111.73333333333329,100.80000000000001 223.46666666666658,101.60000000000001 397,109 C 570.5333333333334,116.39999999999999 805.8666666666668,130.4 990,130 C 1174.1333333333332,129.6 1307.0666666666666,114.8 1440,100 C 1440,100 1440,400 1440,400 Z");
+        }
+      }</style>
+      <path d="M 0,400 C 0,400 0,100 0,100 C 111.73333333333329,100.80000000000001 223.46666666666658,101.60000000000001 397,109 C 570.5333333333334,116.39999999999999 805.8666666666668,130.4 990,130 C 1174.1333333333332,129.6 1307.0666666666666,114.8 1440,100 C 1440,100 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#112022" fill-opacity="0.4" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><style>
+      .path-1{
+        animation:pathAnim-1 4s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes pathAnim-1{
+        0%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 126.39999999999998,188.26666666666665 252.79999999999995,176.53333333333333 404,169 C 555.2,161.46666666666667 731.2,158.13333333333335 908,164 C 1084.8,169.86666666666665 1262.4,184.93333333333334 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        25%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 171.86666666666667,199.86666666666667 343.73333333333335,199.73333333333332 523,199 C 702.2666666666667,198.26666666666668 888.9333333333334,196.93333333333334 1043,197 C 1197.0666666666666,197.06666666666666 1318.5333333333333,198.53333333333333 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        50%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 189.33333333333337,206.66666666666666 378.66666666666674,213.33333333333331 528,218 C 677.3333333333333,222.66666666666669 786.6666666666665,225.33333333333334 932,222 C 1077.3333333333335,218.66666666666666 1258.6666666666667,209.33333333333331 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        75%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 192,180.53333333333333 384,161.06666666666666 522,170 C 660,178.93333333333334 744,216.26666666666665 888,226 C 1032,235.73333333333335 1236,217.86666666666667 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        100%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 126.39999999999998,188.26666666666665 252.79999999999995,176.53333333333333 404,169 C 555.2,161.46666666666667 731.2,158.13333333333335 908,164 C 1084.8,169.86666666666665 1262.4,184.93333333333334 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+      }</style>
+      <path d="M 0,400 C 0,400 0,200 0,200 C 126.39999999999998,188.26666666666665 252.79999999999995,176.53333333333333 404,169 C 555.2,161.46666666666667 731.2,158.13333333333335 908,164 C 1084.8,169.86666666666665 1262.4,184.93333333333334 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#112022" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-1"></path><style>
+      .path-2{
+        animation:pathAnim-2 4s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes pathAnim-2{
+        0%{
+          d: path("M 0,400 C 0,400 0,300 0,300 C 205.46666666666664,280.93333333333334 410.9333333333333,261.8666666666667 550,272 C 689.0666666666667,282.1333333333333 761.7333333333333,321.46666666666664 899,331 C 1036.2666666666667,340.53333333333336 1238.1333333333332,320.26666666666665 1440,300 C 1440,300 1440,400 1440,400 Z");
+        }
+        25%{
+          d: path("M 0,400 C 0,400 0,300 0,300 C 149.59999999999997,292.93333333333334 299.19999999999993,285.8666666666667 443,284 C 586.8000000000001,282.1333333333333 724.8,285.46666666666664 890,289 C 1055.2,292.53333333333336 1247.6,296.26666666666665 1440,300 C 1440,300 1440,400 1440,400 Z");
+        }
+        50%{
+          d: path("M 0,400 C 0,400 0,300 0,300 C 136,300.26666666666665 272,300.53333333333336 422,298 C 572,295.46666666666664 736,290.1333333333333 908,290 C 1080,289.8666666666667 1260,294.93333333333334 1440,300 C 1440,300 1440,400 1440,400 Z");
+        }
+        75%{
+          d: path("M 0,400 C 0,400 0,300 0,300 C 161.86666666666667,303.3333333333333 323.73333333333335,306.66666666666663 505,301 C 686.2666666666667,295.33333333333337 886.9333333333334,280.6666666666667 1046,279 C 1205.0666666666666,277.3333333333333 1322.5333333333333,288.66666666666663 1440,300 C 1440,300 1440,400 1440,400 Z");
+        }
+        100%{
+          d: path("M 0,400 C 0,400 0,300 0,300 C 205.46666666666664,280.93333333333334 410.9333333333333,261.8666666666667 550,272 C 689.0666666666667,282.1333333333333 761.7333333333333,321.46666666666664 899,331 C 1036.2666666666667,340.53333333333336 1238.1333333333332,320.26666666666665 1440,300 C 1440,300 1440,400 1440,400 Z");
+        }
+      }</style>
+      <path d="M 0,400 C 0,400 0,300 0,300 C 205.46666666666664,280.93333333333334 410.9333333333333,261.8666666666667 550,272 C 689.0666666666667,282.1333333333333 761.7333333333333,321.46666666666664 899,331 C 1036.2666666666667,340.53333333333336 1238.1333333333332,320.26666666666665 1440,300 C 1440,300 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#112022" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-2"></path>
+    </svg>
+
+    <!-- Footer Start -->
+    <footer class="bg-[#112022] pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-secondary font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">Ferdian</h2>
+            <h3 class="font-bold text-slate-300 text-2xl mb-2">Contact Me</h3>
+            <p>ferdiansyahtri30@gmail.com</p>
+            <p>Ds. Amonggedo Kec. Amonggedo</p>
+            <p>Konawe</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+            <ul>
+              <li>
+                <a href="#" class="inline-block text-base text-slate-300 hover:text-secondary mb-3">Programming</a>
+              </li>
+              <li>
+                <a href="#" class="inline-block text-base text-slate-300 hover:text-secondary mb-3">Technology</a>
+              </li>
+              <li>
+                <a href="#" class="inline-block text-base text-slate-300 hover:text-secondary mb-3">Lifestyle</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Link</h3>
+            <ul>
+              <li>
+                <a href="#home" class="inline-block text-base text-slate-300 hover:text-secondary mb-3">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="inline-block text-base text-slate-300 hover:text-secondary mb-3">About Me</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="inline-block text-base text-slate-300 hover:text-secondary mb-3">Portfolio</a>
+              </li>
+              <li>
+                <a href="#clients" class="inline-block text-base text-slate-300 hover:text-secondary mb-3">Clients</a>
+              </li>
+              <li>
+                <a href="#contact" class="inline-block text-base text-slate-300 hover:text-secondary mb-3">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-[#284647]">
+          <div class="flex items-center justify-center">
+            <!-- Instagram -->
+            <a
+              href="https://instagram.com/whosferdie_"
+              target="_blank"
+              class="w-[2.70rem] h-[2.70rem] relative mr-7 rounded-lg flex justify-center items-center bg-transparent text-white transition-all duration-200 btn group"
+            >
+            <span class="w-full h-full flex justify-center items-center bg-transparent rounded-lg transition-all svgCont z-50">
+              <svg role="img" width="23" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Instagram</title>
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </span>
+            <span class="bg absolute w-full h-full bg-gradient-to-br from-yellow-500 via-pink-600 to-violet-600 rounded-lg transition-all"></span>
+            <span class="absolute -top-14 left-[50%] -translate-x-[50%] 
+                z-20 origin-left scale-0 px-3 rounded-lg border text-dark 
+              border-gray-300 bg-white py-2 text-sm font-bold
+                shadow-md transition-all duration-300 ease-in-out 
+                group-hover:scale-100 ">Instagram<span>
+            </span></span>
+            </a>
+
+            <!-- Twitter -->
+            <a
+              href="https://x.com/neferdie"
+              target="_blank"
+              class="w-[2.70rem] h-[2.70rem] relative mr-7 rounded-lg flex justify-center items-center bg-transparent transition-all duration-200 btn text-white group"
+            >
+            <span class="w-full h-full flex justify-center items-center bg-transparent rounded-lg transition-all svgCont z-50">
+              <svg role="img" width="23" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Twitter</title>
+                <path
+                  d="M21.543 7.104c.015.211.015.423.015.636 0 6.507-4.954 14.01-14.01 14.01v-.003A13.94 13.94 0 0 1 0 19.539a9.88 9.88 0 0 0 7.287-2.041 4.93 4.93 0 0 1-4.6-3.42 4.916 4.916 0 0 0 2.223-.084A4.926 4.926 0 0 1 .96 9.167v-.062a4.887 4.887 0 0 0 2.235.616A4.928 4.928 0 0 1 1.67 3.148 13.98 13.98 0 0 0 11.82 8.292a4.929 4.929 0 0 1 8.39-4.49 9.868 9.868 0 0 0 3.128-1.196 4.941 4.941 0 0 1-2.165 2.724A9.828 9.828 0 0 0 24 4.555a10.019 10.019 0 0 1-2.457 2.549z"
+                />
+              </svg>
+            </span>
+            <span class="bg absolute w-full h-full bg-sky-500 rounded-lg transition-all"></span>
+            <span class="absolute -top-14 left-[50%] -translate-x-[50%] 
+                z-20 origin-left scale-0 px-3 rounded-lg border text-dark 
+              border-gray-300 bg-white py-2 text-sm font-bold
+                shadow-md transition-all duration-300 ease-in-out 
+                group-hover:scale-100 ">Twitter<span>
+            </span></span>
+            </a>
+
+            <!-- Github -->
+            <a href="https://github.com/imferdian" target="_blank" class="w-[2.70rem] h-[2.70rem] relative rounded-lg flex justify-center items-center bg-transparent transition-all duration-200 btn text-white group">
+              <span class="w-full h-full flex justify-center items-center bg-transparent rounded-lg transition-all svgCont z-50">
+              <svg role="img" width="23" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>GitHub</title>
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                />
+              </svg>
+            </span>
+            <span class="bg absolute w-full h-full bg-slate-900 rounded-lg transition-all"></span>
+            <span class="absolute -top-14 left-[50%] -translate-x-[50%] 
+                z-20 origin-left scale-0 px-3 rounded-lg border text-dark 
+              border-gray-300 bg-white py-2 text-sm font-bold
+                shadow-md transition-all duration-300 ease-in-out 
+                group-hover:scale-100 ">Github<span>
+            </span></span>
+            </a>
+          </div>
+          <p class="mt-5 font-medium text-xs text-slate-300 text-center">Made with <span class="text-pink-500">❤ </span>by <a href="https://instagram.com/whosferdie_" target="_blank" class="font-bold text-primary">Perdiansyah</a>, Using <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind CSS</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+
+
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
